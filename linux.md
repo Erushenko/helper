@@ -1,16 +1,16 @@
-#bash
+# bash
 
-##view command line
+## view command line
 
 	~ 		- home folder
 	$ 		- not root
 	# 		- root permission
 
-##permissions
+## permissions
 
 	logout		- exit from root
 
-##file system
+## file system
 
 	df		-Show information about the file system on which each FILE resides,or all file systems by default.
 		df -h
@@ -22,7 +22,7 @@
 	mount		-mount a filesystem
 		mount -t ext4 dev/group_name /name_value
 
-###view, list, print
+### view, list, print
 
 	stat		-statistic folder/filename
 	cat		-concatenate files and print on the standard output
@@ -44,26 +44,26 @@
 	cut		-remove sections from each line of files
 		cut -d ';' -f1-3 test.text
 
-###CREATE, EDIT, REMOVE, COPY
+### CREATE, EDIT, REMOVE, COPY
 
 	touch		-change file timestamps. create new file
 		touch new_file.txt
 	cp	- copy files and directories
 		cp -rf . ../data
 
-###REDIRECTION
+### REDIRECTION
 
 	>		-in new file
 		cat test.txt > new_test.txt
 	>>		-append into a file
 		cat test.txt >> new_test.txt
 
-###TOOLS
+### TOOLS
 
 	man	-manual commands
 		man du
 
-###TAR
+### TAR
 
 	tar — The GNU version of the tar archiving utility
 		tar cvf backup.tar .
@@ -73,6 +73,6 @@
 	gzip, gunzip, zcat - compress or expand files
 		gzip backup.tar
 
-###LVM
+### LVM
 
 	swaps		-cat proc/swaps	*list swaps*
