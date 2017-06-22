@@ -21,6 +21,10 @@
 		fdisk -l
 	mount		-mount a filesystem
 		mount -t ext4 dev/group_name /name_value
+## atribute, search file
+
+### format disc
+ 
 
 ### view, list, print
 
@@ -32,7 +36,7 @@
 		ls -lah bac*
 	echo - display a line of text
 		echo "test display" > test.txt
-	####options print
+	#### options print
 	more		-file perusal filter for crt viewing
 		cat app.js | more
 	less		-opposite of more
