@@ -74,6 +74,8 @@ git commit --amend
 #squash
 git commit squash
 
+2.git rebase -i <SHA>
+
 #10 Branching
 git diff <name_branch>..<name_branche2>
 git diff --color-words <name_branch>..<name_branche2>
